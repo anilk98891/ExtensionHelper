@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import anilframework
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        anilframework.Bird.fly()
     }
 
 

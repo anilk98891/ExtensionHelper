@@ -1,0 +1,11 @@
+framework module anilframework {
+  umbrella header "anilframework.h"
+
+  export *
+  module * { export * }
+}
+
+module anilframework.Swift {
+    header "anilframework-Swift.h"
+    requires objc
+}
