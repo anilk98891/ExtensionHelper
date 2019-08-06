@@ -4,8 +4,10 @@
 target 'demoExample' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-pod'anilframework'
+
   # Pods for demoExample
+
+  pod 'anilframework'
 
   target 'demoExampleUITests' do
     inherit! :search_paths

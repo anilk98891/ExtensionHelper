@@ -13,7 +13,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        anilframework.Bird.fly()
+        print(self.isValidEmail("anil"))
+        self.UTCToLocal(format: <#T##DateFormat#>, date1: <#T##String#>, convertedFormat: <#T##DateFormat#>)
     }
 
 

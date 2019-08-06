@@ -343,9 +343,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		6893ECD8CCA1BFB9D455DF61150023EB /* Release */ = {
+		143976B03B19EA79A09ADB7FCA8A2E1E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 303867035CCA83208B16B8C589E2301A /* Pods-demoExampleUITests.release.xcconfig */;
+			baseConfigurationReference = F2EA8609F0CFA482C604B3709AF3B502 /* Pods-demoExample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -358,16 +358,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-demoExampleUITests/Pods-demoExampleUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-demoExample/Pods-demoExample-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-demoExampleUITests/Pods-demoExampleUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-demoExample/Pods-demoExample.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -382,7 +382,7 @@
 			};
 			name = Release;
 		};
-		73DCB6E28783A844A8C32FFB9BDEDDE9 /* Debug */ = {
+		1D8473B884E89B003E780059D20EE320 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 049D6F316190B4F059788896184F92F7 /* Pods-demoExample.debug.xcconfig */;
 			buildSettings = {
@@ -399,7 +399,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-demoExample/Pods-demoExample-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -420,7 +420,7 @@
 			};
 			name = Debug;
 		};
-		8DA1E35A44FC20207AAAB57FB3E3F1BB /* Debug */ = {
+		6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -471,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -484,7 +484,7 @@
 			};
 			name = Debug;
 		};
-		B13423993B5AE831C450973E20414142 /* Release */ = {
+		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -532,7 +532,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -544,24 +544,7 @@
 			};
 			name = Release;
 		};
-		B320F5918AA0AD238497A884BA793905 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5286DED587184FF4381CC92CA4A71E4 /* anilframework.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C80B09A0C11C0D90B27BA3EAA5872637 /* Debug */ = {
+		A7C35352A5D144283AC4AA453798D284 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CABA8278C222C29443616D86234B2F32 /* Pods-demoExampleUITests.debug.xcconfig */;
 			buildSettings = {
@@ -578,7 +561,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-demoExampleUITests/Pods-demoExampleUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -599,9 +582,26 @@
 			};
 			name = Debug;
 		};
-		DFFBEAA9A4114F9DF94641EB20E0C723 /* Release */ = {
+		B320F5918AA0AD238497A884BA793905 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2EA8609F0CFA482C604B3709AF3B502 /* Pods-demoExample.release.xcconfig */;
+			baseConfigurationReference = A5286DED587184FF4381CC92CA4A71E4 /* anilframework.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD98BA7E2BC9CB8BF02DE78F85F07995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 303867035CCA83208B16B8C589E2301A /* Pods-demoExampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -614,16 +614,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-demoExample/Pods-demoExample-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-demoExampleUITests/Pods-demoExampleUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-demoExample/Pods-demoExample.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-demoExampleUITests/Pods-demoExampleUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -662,8 +662,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DA1E35A44FC20207AAAB57FB3E3F1BB /* Debug */,
-				B13423993B5AE831C450973E20414142 /* Release */,
+				6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */,
+				A27713CB74E99AF202AADC23200A32F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -671,8 +671,8 @@
 		4DB33779A5DE47C0FB835840FEA01F3D /* Build configuration list for PBXNativeTarget "Pods-demoExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73DCB6E28783A844A8C32FFB9BDEDDE9 /* Debug */,
-				DFFBEAA9A4114F9DF94641EB20E0C723 /* Release */,
+				1D8473B884E89B003E780059D20EE320 /* Debug */,
+				143976B03B19EA79A09ADB7FCA8A2E1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -680,8 +680,8 @@
 		A358321E0CD0443F03CE81669A4CDAAA /* Build configuration list for PBXNativeTarget "Pods-demoExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C80B09A0C11C0D90B27BA3EAA5872637 /* Debug */,
-				6893ECD8CCA1BFB9D455DF61150023EB /* Release */,
+				A7C35352A5D144283AC4AA453798D284 /* Debug */,
+				DD98BA7E2BC9CB8BF02DE78F85F07995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

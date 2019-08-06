@@ -1,5 +1,5 @@
 PODS:
-  - anilframework (0.0.1)
+  - anilframework (0.0.4)
 
 DEPENDENCIES:
   - anilframework
@@ -9,8 +9,8 @@ SPEC REPOS:
     - anilframework
 
 SPEC CHECKSUMS:
-  anilframework: 26bcd4b57094dfba85fcc816264360815ec302d0
+  anilframework: bdc337e05fa0b03b0fd6b07ec6223cdc30877039
 
-PODFILE CHECKSUM: f2da222717c36ec957de514ac90857c9212185e5
+PODFILE CHECKSUM: 52a33996a053887ec1cab83e1331a44248a06a28
 
 COCOAPODS: 1.7.5
